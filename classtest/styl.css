@@ -51,4 +51,8 @@ button:hover {
     width: 200px;
     vertical-align: top;
 }
+/* center e-commerce card */
+.product.box {
+    margin: 10px auto;
+}
 
