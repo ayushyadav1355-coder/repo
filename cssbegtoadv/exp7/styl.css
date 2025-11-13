@@ -9,7 +9,7 @@ body {
   color: white;
   padding: 10px;
   margin: 5px 0;
-  text-decoration: none;
+  text-decoration:wavy;
 }
 .inline-menu a {
   display: inline;
@@ -17,7 +17,7 @@ body {
   color: white;
   padding: 5px;
   margin: 5px;
-  text-decoration: none;
+  text-decoration:underline;
 }
 
 .inline-block-menu a {
@@ -26,7 +26,7 @@ body {
   color: white;
   padding: 10px 15px;
   margin: 5px;
-  text-decoration: none;
+  text-decoration:solid;
 }
 
 .float-menu a {
@@ -35,5 +35,9 @@ body {
   color: white;
   padding: 10px 15px;
   margin: 5px;
-  text-decoration: none;
+  text-decoration:overline;
+}
+
+.clear {
+  clear: both;
 }
