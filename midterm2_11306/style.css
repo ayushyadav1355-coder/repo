@@ -1,0 +1,88 @@
+/* EXPERIMENT 6 STYLESHEET */
+body{
+
+font-family: Arial, Helvetica, sans-serif;
+
+margin: 60px;
+}
+h1{
+color:black;
+
+margin-bottom: 30px;
+}
+
+.product-box{
+
+background-color: white;
+
+width: 300px;
+
+margin: 0 auto;
+
+padding:15px;
+
+border: 2px solid gray;
+
+border-radius:40px;
+}
+
+.product-box img{
+
+width: 100%;
+
+height: auto;
+
+border-radius: 5px;
+}
+
+.product-box h2{
+
+font-size:20px;
+
+margin-top:10px;
+
+}
+
+.description{
+
+color: gray;
+
+font-size: 14px;
+
+margin-top: 5px;
+}
+
+price{
+
+text-align: center;
+
+color: red;
+
+font-size: 18px;
+
+font-weight: bold;
+
+margin-top: 10px;
+}
+
+button {
+
+background-color: blue;
+
+color: white;
+
+border: none;
+
+padding: 10px 50px;
+
+font-size: 14px;
+
+border-radius: 114px;
+
+cursor: pointer;
+}
+
+button:hover {
+
+background-color: blue;
+}
