@@ -57,7 +57,7 @@ h1 {
 
 .price {
   font-size: 18px;
-  color: green;
+  color: red;
   font-weight: bold;
   margin: 10px 0;
 }
@@ -76,7 +76,7 @@ h1 {
 }
 
 .btn:hover {
-  background: #0056b3;
+  background: blue;
 }
 
 /* 📱 Mobile view */
