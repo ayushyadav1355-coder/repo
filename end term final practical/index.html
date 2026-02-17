@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Taste Haven Restaurant</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: white;
+            color: #333;
+        }
+
+        header {
+            background-color: red;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .reserve-btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 25px;
+            background-color: white;
+            color: red;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .reserve-btn:hover {
+            background-color: white;
+        }
+
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+
+       
+        .menu-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .menu-list > li {
+            font-size: 20px;
+            margin: 15px 0;
+        }
+
+        .menu-list ul {
+            list-style-type: circle;
+            margin-top: 10px;
+        }
+
+      
+        .images {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .images img {
+            width: 250px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        
+        .reservation {
+            background-color: white;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+        <h1>Taste Haven</h1>
+        <p>Delicious Food, Cozy Mood</p>
+        <a href="#reservation" class="reserve-btn">Reserve a Table</a>
+    </header>
+
+<section>
+        <h2>Our Menu</h2>
+
+        <ul class="menu-list">
+            <li>🍕 Starters
+                <ul>
+                    <li>Garlic Bread</li>
+                    <li>French Fries</li>
+                    <li>Tomato Soup</li>
+                </ul>
+            </li>
+
+            <li>🍛 Main Course
+                <ul>
+                    <li>Paneer Butter Masala</li>
+                    <li>Chicken Biryani</li>
+                    <li>Veg Fried Rice</li>
+                </ul>
+            </li>
+
+            <li>🍰 Desserts
+                <ul>
+                    <li>Chocolate Cake</li>
+                    <li>Ice Cream</li>
+                    <li>Gulab Jamun</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    
+    <section>
+        <h2>Our Special Dishes</h2>
+
+        <div class="images">
+            <img src="https://images.unsplash.com/photo-1604908177522-402bdfc3a39c" alt="Pizza">
+            <img src="https://images.unsplash.com/photo-1628294896516-344152572ee8" alt="Biryani">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587" alt="Dessert">
+        </div>
+    </section>
+
+    
+    <section id="reservation" class="reservation">
+        <h2>Reserve Your Table</h2>
+        <p>Click below to book your table</p>
+        <a href="https://www.opentable.com" target="_blank" class="reserve-btn">
+            Make a Reservation
+        </a>
+    </section>
+
+    
+    <footer>
+        <p>© 2026 Taste Haven | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
